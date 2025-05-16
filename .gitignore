@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs and debugging
+*.log
+
+# dotenv environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Data files (optional - add based on your project)
+*.csv
+*.tsv
+*.json
+*.parquet
+*.pkl
+*.h5
+*.db
+
+# Model artifacts (optional - only if large or auto-generated)
+models/
+checkpoints/
+
+# Pyenv
+.python-version
+
+# DVC (if using data version control)
+*.dvc
+.cache/
+.dvc/
+
+# Docker
+*.pid
+*.pid.lock
+
+# Mac & Linux
+.DS_Store
+Thumbs.db
